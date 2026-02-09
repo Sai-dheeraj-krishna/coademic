@@ -49,7 +49,10 @@ const Footer = () => {
                                 <Mail size={16} /> coademic.info@gmail.com
                             </li>
                             <li style={{ color: 'var(--gray-text)', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                                <Phone size={16} /> +91 9700524789
+                                <Phone size={16} /> +91 80969 23496
+                            </li>
+                            <li style={{ color: 'var(--gray-text)', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                                <Phone size={16} /> +91 97005 24789
                             </li>
                             <li style={{ color: 'var(--gray-text)' }}>
                                 Building future careers, one skill at a time.
