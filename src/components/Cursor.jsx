@@ -54,9 +54,9 @@ const Cursor = () => {
                 }}
                 transition={{
                     type: "spring",
-                    stiffness: 500,
-                    damping: 28,
-                    mass: 0.5
+                    stiffness: 150,
+                    damping: 15,
+                    mass: 0.1
                 }}
             />
             <motion.div
@@ -80,9 +80,9 @@ const Cursor = () => {
                 }}
                 transition={{
                     type: "spring",
-                    stiffness: 250,
-                    damping: 20,
-                    mass: 0.8 // Slightly heavier for trailing effect
+                    stiffness: 80,
+                    damping: 12,
+                    mass: 0.2
                 }}
             />
         </>

@@ -6,8 +6,8 @@ const Background = () => {
         id: i,
         x: Math.random() * 100,
         y: Math.random() * 100,
-        size: Math.random() * 4 + 1,
-        duration: Math.random() * 20 + 10,
+        size: Math.random() * 10 + 1,
+        duration: Math.random() * 20 + 20,
     }));
 
     return (

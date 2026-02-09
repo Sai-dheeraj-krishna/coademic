@@ -33,7 +33,7 @@ const Header = () => {
                 alignItems: 'center',
                 justifyContent: 'space-between'
             }}>
-                <div style={{ fontSize: '1.5rem', fontWeight: 'bold', letterSpacing: '-0.5px' }}>
+                <div style={{ fontSize: '2.1rem', fontWeight: 'bold', letterSpacing: '-0.5px' }}>
                     <span className="gradient-text">Coademic</span>
                 </div>
 
@@ -116,7 +116,28 @@ const Header = () => {
           .desktop-nav { display: flex !important; align-items: center; }
           .mobile-toggle { display: none !important; }
         }
-        .nav-link:hover { color: var(--primary-red) !important; }
+        .nav-link {
+          position: relative;
+          padding: 0.5rem 0;
+        }
+        .nav-link::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 0;
+          height: 2px;
+          background: var(--gradient-red);
+          transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+          width: 100%;
+        }
+        .nav-link:hover { 
+          color: var(--primary-red) !important;
+          transform: translateY(-2px);
+          text-shadow: 0 0 20px rgba(220, 20, 60, 0.5);
+        }
       `}</style>
         </header>
     );
