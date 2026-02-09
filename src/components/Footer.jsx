@@ -61,6 +61,34 @@ const Footer = () => {
                     </div>
                 </div>
 
+                {/* Leadership Team */}
+                <div style={{
+                    borderTop: '1px solid rgba(255, 255, 255, 0.05)',
+                    paddingTop: '2rem',
+                    marginBottom: '2rem'
+                }}>
+                    <h4 style={{ fontSize: '1.1rem', marginBottom: '1.5rem', textAlign: 'center' }}>Leadership Team</h4>
+                    <div style={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        gap: '3rem',
+                        flexWrap: 'wrap'
+                    }}>
+                        <div style={{ textAlign: 'center' }}>
+                            <p style={{ fontWeight: '600', color: 'var(--light-text)' }}>Kalyani Panga</p>
+                            <p style={{ color: 'var(--gray-text)', fontSize: '0.9rem' }}>Chief Executive Officer & Founder</p>
+                        </div>
+                        <div style={{ textAlign: 'center' }}>
+                            <p style={{ fontWeight: '600', color: 'var(--light-text)' }}>Sai Dheeraj krishna Suda</p>
+                            <p style={{ color: 'var(--gray-text)', fontSize: '0.9rem' }}>Chief Executive Director</p>
+                        </div>
+                        <div style={{ textAlign: 'center' }}>
+                            <p style={{ fontWeight: '600', color: 'var(--light-text)' }}>Vigneswari</p>
+                            <p style={{ color: 'var(--gray-text)', fontSize: '0.9rem' }}>Chief Operating Officer</p>
+                        </div>
+                    </div>
+                </div>
+
                 <div style={{
                     borderTop: '1px solid rgba(255, 255, 255, 0.05)',
                     paddingTop: '2rem',
