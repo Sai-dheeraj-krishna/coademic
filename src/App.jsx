@@ -4,6 +4,7 @@ import Courses from './components/Courses';
 import Services from './components/Services';
 import Placement from './components/Placement';
 import WhyChooseUs from './components/WhyChooseUs';
+import Team from './components/Team';
 import Footer from './components/Footer';
 import Cursor from './components/Cursor';
 import Background from './components/Background';
@@ -20,6 +21,7 @@ function App() {
         <Services />
         <Placement />
         <WhyChooseUs />
+        <Team />
       </main>
       <Footer />
     </div>
