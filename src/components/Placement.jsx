@@ -81,24 +81,29 @@ const Placement = () => {
                                 width: '150px',
                                 height: '150px',
                                 background: 'var(--primary-red)',
-                                borderRadius: '50%',
+                                borderRadius: '100%',
                                 filter: 'blur(80px)',
-                                opacity: 0.4
+                                opacity: 4
                             }} />
                             <div style={{ zIndex: 1, textAlign: 'center' }}>
                                 <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Your Career Starts Here</h3>
                                 <p style={{ color: 'var(--gray-text)' }}>
                                     Bridging the gap between learning and earning.
                                 </p>
-                                <a href="#contact" style={{
-                                    marginTop: '2rem',
-                                    background: 'white',
-                                    color: 'var(--deep-red)',
-                                    padding: '0.8rem 1.5rem',
-                                    borderRadius: '50px',
-                                    fontWeight: 700,
-                                    display: 'inline-block'
-                                }}>
+                                <a
+                                    href="https://wa.me/919700524789?text=Hello! I would like to get support regarding Coademic courses."
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    style={{
+                                        marginTop: '2rem',
+                                        background: 'white',
+                                        color: 'var(--deep-red)',
+                                        padding: '0.8rem 1.5rem',
+                                        borderRadius: '50px',
+                                        fontWeight: 700,
+                                        display: 'inline-block',
+                                        textDecoration: 'none'
+                                    }}>
                                     Get Support
                                 </a>
                             </div>

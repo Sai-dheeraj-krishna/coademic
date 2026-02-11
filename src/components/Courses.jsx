@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Code, Terminal, AppWindow, GitBranch, CheckCircle } from 'lucide-react';
+import { Code, Terminal, AppWindow, GitBranch, CheckCircle, Database } from 'lucide-react';
 
 const courses = [
     {
@@ -32,6 +32,18 @@ const courses = [
         icon: <GitBranch size={40} className="course-icon" />,
         description: 'Collaborate effectively with Git. Learn branching, merging, pull requests, and best practices for team workflows.',
         features: ['Git Basics', 'Branching Strategy', 'Collaboration']
+    },
+    {
+        title: 'SQL Database Design',
+        icon: <Database size={40} className="course-icon" />,
+        description: 'Master relational databases. Learn schema design, complex queries, normalization, and stored procedures with MySQL/PostgreSQL.',
+        features: ['Schema Design', 'Complex Queries', 'Performance Tuning']
+    },
+    {
+        title: 'MongoDB NoSQL',
+        icon: <Database size={40} className="course-icon" />,
+        description: 'Build scalable applications with MongoDB. Understand document-oriented storage, aggregation pipelines, and indexing.',
+        features: ['Document Model', 'Aggregation Framework', 'Replication & Sharding']
     }
 ];
 

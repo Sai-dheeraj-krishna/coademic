@@ -8,6 +8,7 @@ import Team from './components/Team';
 import Footer from './components/Footer';
 import Cursor from './components/Cursor';
 import Background from './components/Background';
+import WhatsAppButton from './components/WhatsAppButton';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Team />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
