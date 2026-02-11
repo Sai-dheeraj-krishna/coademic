@@ -33,7 +33,7 @@ const Header = () => {
                 alignItems: 'center',
                 justifyContent: 'space-between'
             }}>
-                <div style={{ fontSize: '2.1rem', fontWeight: 'bold', letterSpacing: '-0.5px' }}>
+                <div style={{ fontSize: '1.7rem', fontWeight: 'bold', letterSpacing: '-0.5px' }}>
                     <span className="gradient-text">Coademic</span>
                 </div>
 
