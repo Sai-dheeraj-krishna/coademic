@@ -25,8 +25,8 @@ const Cursor = () => {
         // Smooth trailing animation for the ring using requestAnimationFrame
         const animateRing = () => {
             // Lerp (linear interpolation) for smooth following
-            ringX += (mouseX - ringX) * 1;
-            ringY += (mouseY - ringY) * 1;
+            ringX += (mouseX - ringX) * 0.15;
+            ringY += (mouseY - ringY) * 0.15;
             cursorRing.style.transform = `translate(${ringX - 20}px, ${ringY - 20}px)`;
             requestAnimationFrame(animateRing);
         };

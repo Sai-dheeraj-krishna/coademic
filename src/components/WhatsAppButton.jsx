@@ -34,7 +34,7 @@ const WhatsAppButton = () => {
             }}
             title="Get Support on WhatsApp"
         >
-            <MessageCircle size={32} color="white" />. WhatsApp
+            <MessageCircle size={32} color="white" />
         </motion.a>
     );
 };
